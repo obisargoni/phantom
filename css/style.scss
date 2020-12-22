@@ -19,8 +19,11 @@
 $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
-%opensans { font-family: 'Open Sans', sans-serif; }
-%merriweather { font-family: 'Merriweather', serif; }
+%bodysansfam { font-family: 'Karla', 'Open Sans', sans-serif; }
+%headingsansfam { font-family: 'Merriweather Sans', 'Futura', sans-serif; }
+
+%bodyseriffam { font-family: 'Markazi Text', serif; }
+%headingseriffam { font-family: 'Aleo', serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -34,12 +37,12 @@ $secondary: #FF7B7B;
 
 body {
   background-color: #e9edf0;
-  @extend %opensans;
+  @extend %bodyseriffam;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %merriweather;
+  @extend %headingsansfam;
   font-weight: 700;
 }
 

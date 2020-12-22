@@ -58,3 +58,24 @@
 @function darken($color, $percentage) {
   @return mix(black, $color, $percentage);
 }
+
+/* Fonts */
+@font-face {
+  font-family: "Karla";
+  src: url("../assets/fonts/karla/Karla-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("../assets/fonts/merriweather-sans/MerriweatherSans-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../assets/fonts/aleo/Aleo-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Markazi Text";
+  src: url("../assets/fonts/markazi-text/MarkaziText-Regular.ttf")
+}
