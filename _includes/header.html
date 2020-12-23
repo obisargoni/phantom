@@ -29,7 +29,7 @@
 </head>
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
 
-<div class="main container" id="top">
+<header class="main container" id="top">
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-left">
@@ -39,3 +39,5 @@
           </li>
         {% endfor %}
       </ul>
+    </div>
+</header>
