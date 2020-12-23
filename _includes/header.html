@@ -39,13 +39,3 @@
           </li>
         {% endfor %}
       </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        {% for item in site.external %}
-          <li>
-            <a aria-label="{{ title }}" href="{{ url | relative_url }}" {% if url == page.url %}class="selected"{% endif %}>
-            <svg aria-hidden="true" class="icon"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>
-          </li>  
-        {% endfor %}
-      </ul>
-    </div>
