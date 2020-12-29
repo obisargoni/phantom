@@ -255,7 +255,7 @@ button.btn, input.btn {
 }
 
 .content-wrap {
-  margin-bottom: 8em;
+  margin-bottom: 4em;
   @include bp-xsmall {
     margin-bottom: 2em;
   }
@@ -271,8 +271,8 @@ button.btn, input.btn {
     }
   }
   .content {
-    margin-top: 5em;
-    margin-left: 5em;
+    margin-top: 0em;
+    margin-left: 1em;
     @include bp-xsmall {
       margin-left: 0;
     }
@@ -290,7 +290,7 @@ button.btn, input.btn {
       }
     }
     .excerpt {
-      width: 80%;
+      width: 100%;
       @include bp-xsmall {
         width: 100%;
       }
