@@ -118,7 +118,7 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 3em 0em 0em 0em;
+  margin: 0em 0em 0em 0em;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
@@ -128,7 +128,7 @@ button.btn, input.btn {
 }
 
 .hero-content {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   display: table;
   font-size: 14pt;
