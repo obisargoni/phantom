@@ -13,11 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Jami Gibbs."
+title: ""
 email: 'jami0821@gmail.com'
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
+description: "Hello, my name is Obi Thompson Sargoni and I have been making some edits to the Phantom jekyll theme made by Jami Gibbs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et quidem, Cato, hanc totam copiam iam Lucullo nostro notam esse oportebit; Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Conferam avum tuum Drusum cum C. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Duo Reges: constructio interrete. Itaque his sapiens semper vacabit."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
+banner_img: "assets/img/posts/02_weathercast-1130x864-2x.png"
 twitter_username: 'jamigibbs'
 github_username: 'jamigibbs'
 medium_username: 'blog.jamigibbs.com'
