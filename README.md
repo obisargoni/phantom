@@ -1,3 +1,3 @@
-Obi's website.
+Obi's edits to the phantom theme. Objective is to make a more minimal version with less white space.
 
-Built using the phantom theme: https://github.com/jamigibbs/phantom
+Original phamtom theme: https://github.com/jamigibbs/phantom
