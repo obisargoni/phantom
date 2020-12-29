@@ -131,6 +131,7 @@ button.btn, input.btn {
   width: 60%;
   margin: 0 auto;
   display: table;
+  font-size: 14pt;
   @include bp-medium {
     width: 100%;
   }
